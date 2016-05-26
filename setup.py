@@ -4,7 +4,7 @@ setup(
     name="SantaseCardGame",
     version="0.1",
     packages=find_packages(),
-    install_requires=['python...'],
+    install_requires=['PyQt5'],
     author="Andrei Ivanov",
     author_email="andrei4o1995@gmail.com",
     description="Card game",
