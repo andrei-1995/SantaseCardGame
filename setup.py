@@ -20,5 +20,10 @@ setup(
         "Operating System :: Microsoft :: Windows :: Windows 7",
         "Programming Language :: Python :: 3.5",
         "Topic :: Games/Entertainment"
-    ]
+    ],
+    entry_points={
+          'console_scripts': [
+              'SantaseCardGame = SantaseCardGame.__main__:main'
+          ]
+      }
 )
