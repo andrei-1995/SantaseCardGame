@@ -89,7 +89,7 @@ class GameHand:
     def __init__(self, who_will_play_first, first_player, second_player, current_state):
         self.first_player = first_player
         self.second_player = second_player
-        sel.current_state = current_state
+        self.current_state = current_state
         self.first_card  #
         self.second_card  #
         self.winner #=    
